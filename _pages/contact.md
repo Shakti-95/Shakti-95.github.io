@@ -2,6 +2,7 @@
 layout: single
 title: "Contact"
 permalink: /contact/
+author_profile: true
 ---
 
 If you're interested in **consulting**, **collaborating**, or have any questions about my work in materials informatics, feel free to reach out.
