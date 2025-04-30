@@ -1,27 +1,25 @@
-# Minimal Mistakes remote theme starter
+# 🌐 Shakti Prasad Padhy — Personal Portfolio
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Welcome! This is the source code for my personal website:  
+🔗 [www.shaktippadhy.com](https://www.shaktippadhy.com)
 
-Contains basic configuration to get you a site with:
+I am a **materials informatics researcher** and **consultant**, specializing in:
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- AI-driven materials discovery
+- Bayesian optimization & uncertainty quantification
+- High-throughput experimentation
+- Soft magnetic materials & alloy design
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+This website showcases my:
+- 📄 [Curriculum Vitae](https://www.shaktippadhy.com/cv/)
+- 💼 Projects in ML for materials science
+- 🤝 Advisory roles with startups
+- 🚀 Services in materials informatics consulting
 
 ---
 
-## Troubleshooting
+## 🚀 Built With
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+- [GitHub Pages](https://pages.github.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/)
