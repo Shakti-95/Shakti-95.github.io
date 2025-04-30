@@ -6,9 +6,9 @@ Welcome! This is the source code for my personal website:
 I am a **materials informatics researcher** and **consultant**, specializing in:
 
 - AI-driven materials discovery
-- Bayesian optimization & uncertainty quantification
-- High-throughput experimentation
-- Soft magnetic materials & alloy design
+- High-throughput and automated experimentation
+- Alloy (Soft magnetic & structural), ceramic, composite design
+- Bayesian optimization, uncertainity quantification, deep learning
 
 This website showcases my:
 - 📄 [Curriculum Vitae](https://www.shaktippadhy.com/cv/)
