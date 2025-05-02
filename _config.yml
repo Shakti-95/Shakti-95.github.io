@@ -9,12 +9,12 @@ lang: "en"
 timezone: "Asia/Singapore"
 
 # Theme & Skin
-theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air"          # try "air", "docks", "architect", "pixyll"…  
 
 # SEO
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
