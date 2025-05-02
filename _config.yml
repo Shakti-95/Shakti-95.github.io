@@ -10,7 +10,7 @@ timezone: "Asia/Singapore"
 
 # Theme & Skin
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air"          # try "air", "docks", "architect", "pixyll"…  
+minimal_mistakes_skin: "docks"          # try "air", "docks", "architect", "pixyll"…  
 
 # SEO
 plugins:
