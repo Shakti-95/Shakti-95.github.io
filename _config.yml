@@ -1,103 +1,99 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+title: "Dr. Shakti Prasad Padhy"
+email: "padhy.shaktiprasad@gmail.com"
+description: >-
+  AI-driven materials discovery | Machine-learning for materials design | Consultant
+url: "https://www.shaktippadhy.com"    # your full domain
+baseurl: ""                            # leave blank when using apex domain
+lang: "en"
+timezone: "Asia/Singapore"
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Theme & Skin
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"          # try "air", "docks", "architect", "pixyll"…  
 
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# SEO
 plugins:
-  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
   - jemoji
   - jekyll-include-cache
 
+# Markdown
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+# Search
+search: true
+
+# Navigation (header)
+navbar:
+  logo:
+    icon: "fab fa-github"
+    url: "/"
+  links:
+    - title: "About"
+      url: "/about/"
+      header: true
+    - title: "Projects"
+      url: "/projects/"
+      header: true
+    - title: "Blog"
+      url: "/blog/"
+      header: true
+    - title: "Contact"
+      url: "/contact/"
+      header: true
+
+# Author info
 author:
-  name   : "Dr. Shakti Prasad Padhy"
-  avatar : "/assets/images/bio-photo.jpg"  # Replace this if you have a real photo
-  bio    : "Materials informatics researcher | AI/ML for materials design | Consultant"
+  name:   "Dr. Shakti Prasad Padhy"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio:    "Materials-informatics researcher | AI/ML for materials design | Consultant"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
+      icon: "fas fa-envelope"
       url: "mailto:padhy.shaktiprasad@gmail.com"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/shakti-prasad-padhy"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/Shakti-95"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
     - label: "ResearchGate"
       icon: "ai ai-researchgate"
-      url: "https://www.researchgate.net/profile/Shakti-Padhy?ev=hdr_xprf"
+      url: "https://www.researchgate.net/profile/Shakti-Padhy"
 
+# Footer links
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/shakti-prasad-padhy"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/Shakti-95"
-    - label: "Google Scholar"
+    - label: "Scholar"
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
     - label: "ResearchGate"
       icon: "ai ai-researchgate"
-      url: "https://www.researchgate.net/profile/Shakti-Padhy?ev=hdr_xprf"
+      url: "https://www.researchgate.net/profile/Shakti-Padhy"
 
+# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       layout: single
       author_profile: true
@@ -105,17 +101,23 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
-      type: pages
+      type: "pages"
     values:
       layout: single
       author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+
+# Include additional directories
+include:
+  - _pages
