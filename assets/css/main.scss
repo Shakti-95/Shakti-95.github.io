@@ -10,3 +10,8 @@ $left-sidebar-width: 320px !default;
 // 3) Import your custom skin then the rest of Minimal Mistakes
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
 @import "minimal-mistakes";
+
+/* Hide the RSS feed icon in the footer */
+ul.social-icons li.feed {
+  display: none !important;
+}
