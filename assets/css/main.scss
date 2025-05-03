@@ -1,0 +1,12 @@
+---
+---
+// 1) Bump up the overall page max width (default is 1280px)
+$max-width: 1600px !default;
+
+// 2) (Optional) Explicitly widen the left sidebar
+//    Default in MM is 280px—feel free to tweak.
+$left-sidebar-width: 320px !default;
+
+// 3) Import your custom skin then the rest of Minimal Mistakes
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
+@import "minimal-mistakes";
