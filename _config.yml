@@ -63,38 +63,30 @@ author:
       <li>Materials Informatics Researcher</li>
       <li>Automated &amp; High-Throughput Experimentation</li>
     </ul>
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:padhy.shaktiprasad@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/shakti-prasad-padhy"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/Shakti-95"
-    - label: "Google Scholar"
-      icon_img: "/assets/images/GoogleScholar-icon-SVG.svg"
-      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
-    - label: "ResearchGate"
-      icon_img: "/assets/images/ResearchGate-icon-SVG.svg"
-      url: "https://www.researchgate.net/profile/Shakti-Padhy"
-
+  
 # Footer links
 footer:
   links:
+    - label: "Email"
+      icon:    "fas fa-envelope"
+      url:     "mailto:padhy.shaktiprasad@gmail.com"
+
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/shakti-prasad-padhy"
+      icon:    "fab fa-linkedin"
+      url:     "https://linkedin.com/in/shakti-prasad-padhy"
+
     - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/Shakti-95"
-    - label: "Scholar"
-      icon_img: "/assets/images/GoogleScholar-icon-SVG.svg"
-      url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
+      icon:    "fab fa-github"
+      url:     "https://github.com/Shakti-95"
+
+    - label: "Google Scholar"
+      icon_img: "/assets/images/google-scholar.svg"
+      url:      "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
+
     - label: "ResearchGate"
-      icon_img: "/assets/images/ResearchGate-icon-SVG.svg"
-      url: "https://www.researchgate.net/profile/Shakti-Padhy"
+      icon_img: "/assets/images/researchgate.svg"
+      url:      "https://www.researchgate.net/profile/Shakti-Padhy"
+
 
 # Defaults
 defaults:
