@@ -1,10 +1,12 @@
 # Site settings
-title: "Dr. Shakti Prasad Padhy"
+title: "Shakti Prasad Padhy, Ph.D."
 email: "padhy.shaktiprasad@gmail.com"
 description: >-
-  AI-driven materials discovery | Machine-learning for materials design | Consultant
-url: "https://www.shaktippadhy.com"    # your full domain
-baseurl: ""                            # leave blank when using apex domain
+  Leveraging AI-driven frameworks and high-throughput experiments to 
+  revolutionize materials discovery and design for renewable energy, 
+  aerospace, and biomedical applications. 
+url: "https://www.shaktippadhy.com"
+baseurl: ""
 lang: "en"
 timezone: "Asia/Singapore"
 
