@@ -58,9 +58,9 @@ author:
   name:   "Shakti Prasad Padhy, Ph.D."
   avatar: "/assets/images/Shakti-Formal-2.jpg"
   bio: |
-    Incoming Postdoctoral Researcher, Texas A&M University, USA
-    Ph.D. Materials Science & Engineering, NTU, Singapore
-    Materials Informatics Researcher
+    Incoming Postdoctoral Researcher, Texas A&M University, USA<br>
+    Ph.D. Materials Science & Engineering, NTU, Singapore<br>
+    Materials Informatics Researcher<br>
     Automated & High-Throughput Experimentation
   links:
     - label: "Email"
@@ -73,10 +73,10 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/Shakti-95"
     - label: "Google Scholar"
-      icon_img: "/assets/images/GoogleScholar_icon_SVG.svg"
+      icon_img: "/assets/images/GoogleScholar-icon-SVG.svg"
       url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
     - label: "ResearchGate"
-      icon_img: "/assets/images/ResearchGate_icon_SVG.svg"
+      icon_img: "/assets/images/ResearchGate-icon-SVG.svg"
       url: "https://www.researchgate.net/profile/Shakti-Padhy"
 
 # Footer links
