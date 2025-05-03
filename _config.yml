@@ -39,15 +39,26 @@ navbar:
     icon: "fab fa-github"
     url: "/"
   links:
+    - title: "Home"
+      url: "/"
+      header: true
+
     - title: "About"
       url: "/about/"
       header: true
+
+    - title: "CV"
+      url: "/cv/"
+      header: true
+
     - title: "Projects"
       url: "/projects/"
       header: true
-    - title: "Blog"
-      url: "/blog/"
+
+    - title: "Consulting"
+      url: "/consulting/"
       header: true
+
     - title: "Contact"
       url: "/contact/"
       header: true
