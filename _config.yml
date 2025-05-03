@@ -73,10 +73,10 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/Shakti-95"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon_img: "/assets/images/GoogleScholar_icon_SVG.svg"
       url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
     - label: "ResearchGate"
-      icon: "ai ai-researchgate"
+      icon_img: "/assets/images/ResearchGate_icon_SVG.svg"
       url: "https://www.researchgate.net/profile/Shakti-Padhy"
 
 # Footer links
