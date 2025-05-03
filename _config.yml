@@ -19,7 +19,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jemoji
@@ -89,10 +88,10 @@ footer:
       icon: "fab fa-github"
       url: "https://github.com/Shakti-95"
     - label: "Scholar"
-      icon: "ai ai-google-scholar"
+      icon_img: "/assets/images/GoogleScholar-icon-SVG.svg"
       url: "https://scholar.google.com/citations?user=1yxyKvEAAAAJ"
     - label: "ResearchGate"
-      icon: "ai ai-researchgate"
+      icon_img: "/assets/images/ResearchGate-icon-SVG.svg"
       url: "https://www.researchgate.net/profile/Shakti-Padhy"
 
 # Defaults
