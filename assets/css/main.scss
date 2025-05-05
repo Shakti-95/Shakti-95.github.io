@@ -3,15 +3,48 @@
 // 1) Bump up the overall page max width (default is 1280px)
 $max-width: 1600px !default;
 
-// 2) (Optional) Explicitly widen the left sidebar
-//    Default in MM is 280px—feel free to tweak.
+// 2) Widen the left sidebar
 $left-sidebar-width: 320px !default;
 
 // 3) Import your custom skin then the rest of Minimal Mistakes
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
 @import "minimal-mistakes";
 
-/* Hide the RSS feed icon in the footer */
+// 4) Hide the RSS feed icon in the footer
 ul.social-icons li.feed {
   display: none !important;
+}
+
+// 5) Header background (solid color)
+.site-header {
+  background-color: #2c3e50 !important;
+  /* To use an image instead, uncomment below and comment out the background-color above:
+  background-image: url('/assets/images/header-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  */
+}
+
+// 6) Logo sizing in header
+.site-header .site-nav-logo img {
+  height: 48px !important;
+  width: auto !important;
+}
+
+// 7) Nav link color on header
+.site-header .site-nav a {
+  color: #fff !important;
+}
+
+// 8) Optional: underline active nav link
+.site-header .site-nav .active > a {
+  text-decoration: underline !important;
+}
+
+// 9) Sidebar avatar sizing (optional)
+.author-profile .avatar,
+.author-profile .avatar-image {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
 }
