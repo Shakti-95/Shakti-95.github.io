@@ -1,14 +1,15 @@
 ---
-layout: home
-hero_image: "/assets/images/hero-bg.jpg"   # optional full-width banner
-hero_title: "Shakti Prasad Padhy, Ph.D."
-hero_subtitle: "AI-Driven Materials Discovery & Consulting"
-hero_cta:
-  - text: "View CV"
-    url: "/cv/"
-  - text: "Get in Touch"
-    url: "/contact/"
+layout: single
+title:  "Home"
+permalink: /
+author_profile: true
 ---
+
+<!-- Hero banner -->
+![Hero background](/assets/images/hero-bg.jpg){: style="width:100%; max-height:300px; object-fit:cover;" }
+
+# Shakti Prasad Padhy, Ph.D.
+**AI-Driven Materials Discovery & Consulting**
 
 Welcome! I’m a materials-informatics researcher and consultant, specializing in:
 
@@ -47,16 +48,6 @@ Welcome! I’m a materials-informatics researcher and consultant, specializing i
 - **Alloy-Design Consulting:** ML-driven composition & process optimization  
 - **High-Throughput Setup:** Design of experiments, automation & data pipelines  
 - **Workshops & Training:** Intro to Bayesian optimization, SHAP, Jupyter  
-
----
-
-## 📰 From the Blog
-
-{% for post in site.posts limit:3 %}
-- **[{{ post.title }}]({{ post.url }})** — {{ post.excerpt | strip_html | truncate: 80 }}
-{% endfor %}
-
-[View All Posts →](/blog/)
 
 ---
 
