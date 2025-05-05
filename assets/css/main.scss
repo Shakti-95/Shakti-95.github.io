@@ -4,7 +4,7 @@
 $max-width: 1600px !default;
 
 // 2) Widen the left sidebar
-$left-sidebar-width: 320px !default;
+$left-sidebar-width: 480px !default;
 
 // 3) Import your custom skin then the rest of Minimal Mistakes
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
