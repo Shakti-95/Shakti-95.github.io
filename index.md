@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <!-- Hero banner -->
-![Hero background](/assets/images/hero-bg.jpg){: style="width:100%; max-height:300px; object-fit:cover;" }
+![Hero background](/assets/images/hero-bg.png){: style="width:100%; max-height:300px; object-fit:cover;" }
 
 # Shakti Prasad Padhy, Ph.D.
 **AI-Driven Materials Discovery & Consulting**
