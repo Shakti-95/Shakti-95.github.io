@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "Shakti Prasad Padhy, Ph.D."
+title:  "Home"
 permalink: /
 author_profile: true
 ---
 
-**Driving Materials Innovation with AI & Automation**
+## ⚡ Accelerating Materials Innovation with AI & Automation
 
 I accelerate materials discovery and process development by combining machine-learning–driven design with automated, high-throughput experimentation.
 
