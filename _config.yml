@@ -36,7 +36,7 @@ search: true
 # Navigation (header)
 navbar:
   logo:
-    icon: "fab fa-github"
+    icon: "/assets/images/logo.png"
     url: "/"
   links:
     - title: "Home"
