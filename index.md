@@ -1,55 +1,87 @@
 ---
 layout: single
-title:  "Home"
+title:  "Shakti Prasad Padhy, Ph.D."
 permalink: /
 author_profile: true
 ---
 
-<!-- Hero banner -->
-![Hero background](/assets/images/hero-bg.png){: style="width:100%; max-height:300px; object-fit:cover;" }
+**Driving Materials Innovation with AI & Automation**
 
-# Shakti Prasad Padhy, Ph.D.
-**AI-Driven Materials Discovery & Consulting**
+I accelerate materials discovery and process development by combining machine-learning–driven design with automated, high-throughput experimentation.
 
-Welcome! I’m a materials-informatics researcher and consultant, specializing in:
-
-- **Inverse Alloy Design** via Bayesian optimization  
-- **High-Throughput Experimentation** pipelines  
-- **Explainable ML** for finite-element & spectroscopy data  
+- **Inverse Materials Design:** Bayesian and generative AI  
+- **High-Throughput Experimentation:** Combinatorial experiments advanced manufacturing
+- **Automated Experimentation:** AI-enabled automation of experiments
+- **Explainable AI:** Feature attribution & model transparency  
+- **Uncertainty Quantification:** Confidence metrics & risk analysis
 
 ---
 
 ## 🚀 Featured Projects
 
-<div class="row">
-  <div class="col-4">
-  **Inverse Design of Fe-Co-Ni Alloys**  
-  Bayesian optimization → Experimental validation.  
-  <a href="/projects/#fe-conical-alloys">Learn more →</a>
+<div class="swiper featured-projects-carousel">
+  <div class="swiper-wrapper">
+    <!-- Slide 1 -->
+    <div class="swiper-slide">
+      <a href="/projects/fe-conical-alloys/">
+        <img src="/assets/images/fe-conical-alloys.jpg" alt="Fe-Co-Ni Alloy" />
+      </a>
+    </div>
+    <!-- Slide 2 -->
+    <div class="swiper-slide">
+      <a href="/projects/fea-deflection/">
+        <img src="/assets/images/fea-deflection.jpg" alt="Explainable FEA" />
+      </a>
+    </div>
+    <!-- Slide 3 -->
+    <div class="swiper-slide">
+      <a href="/projects/sps-optimization/">
+        <img src="/assets/images/sps-optimization.jpg" alt="Spark Plasma Sintering BO" />
+      </a>
+    </div>
   </div>
-
-  <div class="col-4">
-  **Explainable FEA Deflection**  
-  SHAP & LIME insights on boundary-condition sensitivity.  
-  <a href="/projects/#fea-deflection">Read post →</a>
-  </div>
-
-  <div class="col-4">
-  **Automated Workflow**  
-  Batch-wise multi-objective BO for spark-plasma sintering.  
-  <a href="/projects/#sps-optimization">Explore →</a>
-  </div>
+  <!-- Pagination dots -->
+  <div class="swiper-pagination"></div>
+  <!-- Navigation arrows -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".featured-projects-carousel", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoplay: { delay: 5000 },
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });
+</script>
 
 ---
 
 ## 💼 Services
 
-- **Alloy-Design Consulting:** ML-driven composition & process optimization  
-- **High-Throughput Setup:** Design of experiments, automation & data pipelines  
-- **Workshops & Training:** Intro to Bayesian optimization, SHAP, Jupyter  
+I partner with research labs and industry to deliver:
+
+- **AI-Driven Materials Design**  
+  Custom machine-learning workflows for multi-property optimized design of materials 
+
+- **High-Throughput Workflows**  
+  Combinatorial & automated synthesis & characterization pipelines  
+
+- **Data Analysis & Visualization**  
+  In-depth statistical analysis, interactive plots, and actionable visual insights for strategic decision‐making
+
+- **Workshops & Training**  
+  Integrated lecture sessions and hands-on workshops in AI-driven materials science, Bayesian optimization, explainable AI, and combinatorial & automated laboratory workflows.  
+ 
 
 ---
 
-Want to collaborate or learn more?  
-👉 **[Contact me](/contact/)**  
+Want to collaborate? 👉 **[Contact me](/contact/)**  
