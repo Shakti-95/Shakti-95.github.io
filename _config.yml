@@ -74,7 +74,11 @@ author:
       <li>Materials Informatics Researcher</li>
       <li>Automated &amp; High-Throughput Experimentation</li>
     </ul>
-  
+
+# Hide the default feed link/icon everywhere
+atom_feed:
+  hide: true
+
 # Footer links
 footer:
   links:
